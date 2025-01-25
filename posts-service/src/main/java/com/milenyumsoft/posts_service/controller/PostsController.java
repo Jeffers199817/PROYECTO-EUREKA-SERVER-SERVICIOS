@@ -25,6 +25,7 @@ public class PostsController {
     @GetMapping("{/user_id}")
     public List<Post> getPostsByUserId(@PathVariable Long user_id) {
         System.out.println("================Estoy en el puerto " + serverPort);
+        System.out.println("...........................");
     return postService.getPostsByUser(user_id);
     }
 
