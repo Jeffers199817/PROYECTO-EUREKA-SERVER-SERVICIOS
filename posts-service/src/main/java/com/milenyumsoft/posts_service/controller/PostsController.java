@@ -4,6 +4,7 @@ import com.milenyumsoft.posts_service.model.Post;
 import com.milenyumsoft.posts_service.service.IPostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.converter.json.GsonBuilderUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +19,7 @@ public class PostsController {
     @Autowired
     private IPostService postService;
 
+
     @Value("${server.port}")
     private int serverPort;
 
@@ -26,6 +28,7 @@ public class PostsController {
     public List<Post> getPostsByUserId(@PathVariable Long user_id) {
         System.out.println("================Estoy en el puerto " + serverPort);
         System.out.println("...........................");
+        System.out.println("//////////////////");
     return postService.getPostsByUser(user_id);
     }
 
