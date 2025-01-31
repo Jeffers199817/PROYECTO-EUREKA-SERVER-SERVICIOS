@@ -30,4 +30,5 @@ VALUES
     (28, 'Machine Learning in Java', 3),
     (29, 'Java Native Interface (JNI)', 4),
     (30, 'Java Best Practices', 5);
+
     (31, 'Java Best Practices', 5);
