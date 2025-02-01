@@ -28,6 +28,7 @@ VALUES
     (26, 'Java 9 and Beyond', 1),
     (27, 'Java Module System', 2),
     (28, 'Machine Learning in Java', 3),
+
     (29, 'Java Native Interface (JNI)', 4),
     (30, 'Java Best Practices', 5);
 
