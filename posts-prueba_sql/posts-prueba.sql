@@ -22,6 +22,7 @@ VALUES
     (20, 'Introduction to Spring Framework', 5),
     (21, 'Java Security', 1),
     (22, 'Java Serialization', 2),
+
     (23, 'Asynchronous Programming in Java', 3),
     (24, 'Java Performance Optimization', 4),
     (25, 'Microservices with Java and Spring Boot', 5),
