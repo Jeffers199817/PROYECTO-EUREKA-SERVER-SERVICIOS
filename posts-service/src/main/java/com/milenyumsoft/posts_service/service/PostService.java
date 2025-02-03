@@ -22,6 +22,13 @@ public class PostService implements IPostService{
 
     @Override
     public String saludoBienvenido(String hola) {
-        return "";
+
+        if(hola.equals("hola")) {
+            String hola1 = "Tenemos que hablar";
+            return hola1;
+        }
+
+
+        return "false";
     }
 }
