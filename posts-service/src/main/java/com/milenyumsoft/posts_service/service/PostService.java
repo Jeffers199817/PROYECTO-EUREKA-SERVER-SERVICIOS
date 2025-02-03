@@ -19,4 +19,9 @@ public class PostService implements IPostService{
     public List<Post> getPostsByUser(Long user_id) {
         return postRepository.findPostByUserId(user_id);
     }
+
+    @Override
+    public String saludoBienvenido(String hola) {
+        return "";
+    }
 }
