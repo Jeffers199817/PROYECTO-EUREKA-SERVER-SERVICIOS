@@ -33,4 +33,13 @@ public class PostsController {
     }
 
 
+    @GetMapping("/bienvenido/{hola}")
+    public String saludoBienvenido(@PathVariable String hola){
+
+        String hola1 = hola + " Un placer atenderte.";
+        return hola1;
+
+    }
+
+
 }
