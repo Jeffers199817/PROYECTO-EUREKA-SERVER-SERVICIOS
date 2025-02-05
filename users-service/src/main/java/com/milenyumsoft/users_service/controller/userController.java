@@ -17,7 +17,7 @@ public class userController {
     private IUserService servUsu;
 
 
-    @GetMapping("/posts/{user_id")
+    @GetMapping("/posts/{user_id}")
     public UserDTO getUserAndPosts (@PathVariable Long user_id){
 
         UserDTO user = servUsu.getUserAndPosts(user_id);
