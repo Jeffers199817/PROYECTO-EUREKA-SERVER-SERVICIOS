@@ -34,4 +34,20 @@ public class PostService implements IPostService{
 
         return "false";
     }
+
+    @Override
+    public List<Post> allListPosts(){
+
+        List<Post> listaPosts = postRepository.findAll();
+        int conteo = 0;
+        for(Post post: listaPosts){
+
+            System.out.println("Post " + conteo + " : "+ post.getTitle());
+            conteo++;
+        }
+
+            
+        return    postRepository.findAll();
+
+    }
 }

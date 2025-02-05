@@ -9,4 +9,7 @@ public interface IPostService {
     public List<Post> getPostsByUser(Long user_id);
 
     public String saludoBienvenido(String hola);
+
+    public List<Post> allListPosts();
+
 }

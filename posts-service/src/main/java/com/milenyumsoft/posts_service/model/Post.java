@@ -2,16 +2,14 @@ package com.milenyumsoft.posts_service.model;
 
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
+@ToString
 public class Post {
 
     @Id
@@ -19,6 +17,7 @@ public class Post {
     private Long id;
     @Basic
     private String title;
+    @Column(name="user_id")
     private Long user_id;
 
 

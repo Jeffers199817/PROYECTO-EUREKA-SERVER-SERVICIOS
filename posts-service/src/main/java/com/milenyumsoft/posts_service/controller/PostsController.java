@@ -39,7 +39,16 @@ public class PostsController {
         String hola1 = hola + " Un placer atenderte.";
         return hola1;
 
+
+
+
+
     }
 
+    @GetMapping("/posts")
+    public List<Post> allListsPosts(){
+
+        return postService.allListPosts();
+    }
 
 }

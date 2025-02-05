@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name="post-service")
+@FeignClient(name="posts-service")
 public interface IPostsAPI {
 
         @GetMapping("/posts/{user_id}")
