@@ -18,6 +18,6 @@ public class UserDTO {
     private String name;
     private String lastname;
     private String cellphone;
-    private List<PostDTO> listaPosteos;
+    private List<PostDTO> postsList;
 
 }
