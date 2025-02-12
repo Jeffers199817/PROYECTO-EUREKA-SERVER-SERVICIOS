@@ -11,7 +11,9 @@ VALUES
     (9, 'File Handling in Java', 4),
     (10, 'Multithreading in Java', 5),
     (11, 'Java GUI Programming with Swing', 1),
+
     (12, 'Database Connectivity with JDBC', 2),
+
     (13, 'Introduction to JavaFX', 3),
     (14, 'Unit Testing in Java', 4),
     (15, 'RESTful Web Services with Java', 5),
