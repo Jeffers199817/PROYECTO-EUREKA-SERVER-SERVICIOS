@@ -7,6 +7,8 @@ VALUES
     (4, 'Java Control Structures', 4),
     (5, 'Exception Handling in Java', 5),
     (6, 'Java Methods and Functions', 1),
+
+
     (7, 'Inheritance and Polymorphism', 2),
     (8, 'Java Collections Framework', 3),
     (9, 'File Handling in Java', 4),
