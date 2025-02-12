@@ -3,6 +3,7 @@ VALUES
     (1, 'Introduction to Java Programming', 1),
     (2, 'Java Variables and Data Types', 2),
     (3, 'Object-Oriented Programming', 3),
+
     (4, 'Java Control Structures', 4),
     (5, 'Exception Handling in Java', 5),
     (6, 'Java Methods and Functions', 1),
