@@ -25,12 +25,13 @@ VALUES
 
     (23, 'Asynchronous Programming in Java', 3),
     (24, 'Java Performance Optimization', 4),
-    (25, 'Microservices with Java and Spring Boot', 5),
+    (25, 'Microservices with Java and Spring B oot', 5),
     (26, 'Java 9 and Beyond', 1),
     (27, 'Java Module System', 2),
     (28, 'Machine Learning in Java', 3),
 
     (29, 'Java Native Interface (JNI)', 4),
+
     (30, 'Java Best Practices', 5);
 
     (31, 'Java Best Practices', 5);
